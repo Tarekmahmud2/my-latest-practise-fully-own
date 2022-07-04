@@ -1,3 +1,57 @@
 body{
     font-family: 'Barlow', sans-serif;
+    margin: 0%;
+}
+.name{
+    font-size: 50px;
+    color: #FF007A;
+    margin-top: 0%;
+    margin-bottom: 40px;
+}
+
+
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 5%;
+    padding-left: 2%;
+}
+
+img{
+    width: 100%;
+    margin-top: 0%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.link-button{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #FF007A;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 100px;
+}
+a:hover{
+    color: #00ffff;
+    font-size: 20px;
+}
+section{
+    height: 800px;
+    padding-bottom: 50px;
+    width: 100%;
+    padding-top: 90px;
+
+}
+.top-banner{
+    background-image: url("personal-website/header-bg.png");
+    background-repeat: no-repeat;
+}
+.biography{
+    background-image: url("personal-website/biography-bg.png");
+    background-repeat: no-repeat;
 }
